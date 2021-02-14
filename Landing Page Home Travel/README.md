@@ -1,0 +1,2 @@
+Belajar membuat landing page
+![screencapture-localhost-webproject-Project5-Landing-Page-Landing-Page-Home-Travel-2021-02-15-02_05_00](https://user-images.githubusercontent.com/50267676/107889084-132adc00-6f43-11eb-8178-d9e51a23256a.png)
