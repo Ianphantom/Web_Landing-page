@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&family=Roboto:wght@400;700&display=swap');
+body{
+    background-color: #DCE8EE;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: #FFFFFF;
+    margin: 0px auto;
+    position: relative;
+    padding: 0;
+}
+
+.navbar{
+    padding: 30px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-brand{
+    font-family: 'Nova Round', cursive;
+    color: #596E79 !important;
+}
+
+.nav-link{
+    font-family: 'Nova Round', cursive;
+    color: #596E79 !important;
+}
+
+.tombol{
+    display: none;
+}
+
+.utama{
+    position: relative;
+}
+
+.jumbotron{
+    height: 244px;
+    background: url("img/jumbotron.jpg");
+    background-size: cover;
+}
+
+.jumbotron-text{
+    width: 220px;
+    height: 163px;
+    border-radius: 0;
+    background: #596E79;
+    color: white;
+    padding-top: 12px;
+    padding-right: 28px;
+    padding-left: 36px;
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+}
+
+.display-4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lead{
+    font-size: 10px;
+}
+.benefit{
+    padding: 30px;
+    display: flex;
+}
+.line{
+    display: none;
+}
+.benefit h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 14px;
+}
+
+.features{
+    padding:30px;
+    padding-top: 0;
+    text-align: center;
+}
+.features .row{
+    width: 70%;
+    margin: 0 auto;
+}
+/* .feature{
+    display: flex;
+} */
+
+.feature svg{
+    width: 100%;
+}
+
+.feature h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.feature p{
+    font-size: 15px;
+    color: #828282;
+}
+
+.experience{
+    position: relative;
+    flex-direction: column;
+}
+
+.experience-image{
+    width: 100%;
+}
+
+.experience-desc{
+    padding: 20px 20px 10px 52px;
+}
+
+.experience-desc h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.experience-desc p{
+    margin-top: 23px;
+    line-height: 30px;
+    color: #828282;
+}
+.rate{
+    margin-bottom: 35px;
+}
+.rate .point{
+    color: #596E79;
+    font-weight: bold;
+}
+
+.rate .point-desc{
+    font-weight: bold;
+}
+
+.experience-desc .btn-learn{
+    color: black;
+    font-size: 15px;
+    padding: 10px 25px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.experience-desc .btn-learn:hover{
+    color: white;
+    background: #596E79;
+    border: 1px solid black;
+}
+
+.process{
+    flex-direction: column;
+}
+.process-decs{
+    padding: 20px 52px 10px 30px;
+}
+
+.process h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nomor-proc{
+    margin-top: 30px;
+}
+
+.nomor-proc .util{
+    background-color: #596E79;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+.nomor{
+    margin-left: 30px;
+    padding-right: 30px;
+}
+
+.nomor p{
+    color: #828282;
+}
+
+.testimoni{
+    padding: 30px;
+}
+
+.testimoni h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.testimoni-judul{
+    margin-bottom: 30px;
+}
+
+.testimonial{
+    text-align: center;
+    padding: 85px 50px 45px 70px;
+    margin: 70px 15px 35px;
+    background: #f9f9f9;
+    position: relative;
+    background: #596E79;
+}
+.testimonial .pic{
+    width: 120px;
+    height: 120px;
+    border: 5px solid #77a9dd;
+    margin: 0 auto;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .description{
+    font-size: 15px;
+    color: white;
+    line-height: 27px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.testimonial .description:before{
+    content: "\f10d";
+    font-family: "FontAwesome";
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    top: -15px;
+    left: -35px;
+    background: #596E79;
+}
+.testimonial .testimonial-profile{
+    position: relative;
+    margin: 20px 0 10px 0;
+}
+.testimonial .testimonial-profile:after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #77a9dd;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+}
+.testimonial .title{
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.testimonial .post{
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    text-transform: capitalize;
+}
+.owl-theme .owl-controls{
+    margin-top: 10px;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: #5e5f5f;
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #77a9dd;
+}
+.owl-theme .owl-controls .owl-page.active span{
+    width: 22px;
+    height: 12px;
+}
+.subscribe{
+    width: 100%;
+    margin: 0px auto;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.subscribe .subscribe-content h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.subscribe .subscribe-content p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #828282;
+    line-height: 35px;
+    margin-top: 30px;
+}
+
+.user-input{
+    background: white;
+    box-shadow: 0 -1px 5px grey;
+    padding: 20px;
+    text-align: left;
+}
+
+.user-input .email{
+    border: none;
+    width: 100%;
+}
+
+.btn-sub{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.subscribe-btn{
+    padding: 10px 30px;
+    background: #596E79;
+    color: white;
+}
+
+footer{
+    position: relative;
+    z-index: 1;
+}
+
+.footer{
+    height: 200px;
+    background: #596E79;
+    border-radius: 0 0px 38px 38px;
+    margin-top: -70px;
+}
+@media (min-width: 576px) {
+    .container{
+        border-radius: 38px;
+    }
+    .jumbotron{
+        width: 70%;
+        height: 487px;
+        background: url("img/jumbotron.jpg");
+        background-size: cover;
+    }
+    
+    .jumbotron-text{
+        width: 440px;
+        height: 326px;
+        border-radius: 0;
+        padding-top: 24px;
+        padding-right: 56px;
+        padding-left: 73px;
+        position: absolute;
+        left: 0px;
+        bottom: 85px;
+    }
+    
+    .display-4{
+        font-size: 40px;
+    }
+    
+    .lead{
+        font-size: 15px;
+    }
+
+    .benefit h1{
+        font-size: 30px;
+    }
+    .line{
+        display: block;
+    }
+    .features .row{
+        width: 100%;
+    }
+}
+/* desktop version */
+@media (min-width: 992px) {
+    .container{
+        margin: 70px auto;
+    }
+    .navbar{
+        padding: 30px 90px;
+        margin-top: 60px !important;
+    }
+    .navbar-brand{
+        font-size: 28px;
+    }
+    
+    .navbar-nav{
+        margin-left: auto;
+    }
+    
+    .nav-link{
+        font-size: 20px;
+        margin-right: 55px;
+    }
+    
+    .navbar-nav .nav-link:last-child{
+        margin-right: 0px;
+    }
+    
+    .nav-link:hover::after{
+        content: "";
+        display: block;
+        border-bottom: 3px solid #596E79;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron{
+        width: 70%;
+        height: 487px;
+        background: url("img/jumbotron.jpg");
+        background-size: cover;
+    }
+    
+    .jumbotron-text{
+        bottom: 25px;
+    }
+    .benefit h1{
+        font-size: 40px;
+    }
+    .features{
+        margin-top: 30px;
+    }
+    .feature{
+        display: flex;
+        text-align: left;
+    }
+    .experience{
+        padding: 30px 90px;
+        flex-direction: row;
+    }
+    .experience-image{
+        width: 331px;
+    }
+    .experience-desc h1{
+        font-size: 40px;
+    }
+    .rate .point{
+        font-size: 48px;
+    }
+    .process{
+        padding: 30px 90px;
+        flex-direction: row;
+    }
+
+    .testimoni{
+        padding: 30px 90px;
+    }
+    .subscribe{
+        width: 70%;
+    }
+    .subscribe .subscribe-content{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .btn-sub{
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hamburger{
+        margin-left: 65px;
+    }
+    .tombol{
+        display: block;
+    }
+    .tombol:hover{
+        cursor: pointer;
+        color: #43525a;
+    }
+    .navbar-nav{
+        margin-left: 100px;
+    }
+    .benefit{
+        padding: 30px 90px;
+        display: flex;
+    }
+    .features{
+        padding:30px 90px;
+        padding-top: 0;
+    }
+}
